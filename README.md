@@ -10,3 +10,9 @@ Desenvolvimento do projeto Marvel que consiste em consumir uma API Marvel de aco
 | Chamadas para API Marvel Comics rejeitadas.  | Verifique se os limites de taxa de chamadas do serviço não ultrapassaram 3000 (diário). |
 | Projetos futuros de aplicativos que utilizem a API Marvel  e propagandas.	  |  Qualquer publicidade associada ao conteúdo Marvel deve primeiro ser aceita.|
 | Dificuldade para manipular API Marvel. | Acesse o documento interativo do site onde expõe como os conteúdos estão organizados.
+
+### Recursos ![settings](https://user-images.githubusercontent.com/60737355/82158745-141dc880-9860-11ea-9556-d363e3dd72ab.png)
+- HTML5
+- CSS3
+- JavaScript
+- API Marvel 
