@@ -37,7 +37,7 @@ const getMarvel = async () => {
     const timestamp = "1589910124";
     const apikey = "55107d58b8f180551b90d6a24b3b608d";
     const md5 = "a95e0c0753d49c665be4ae74d74bfb92";
-    const url = `http://gateway.marvel.com/v1/public/events?nameStartsWith=${pesquisa}&ts=${timestamp}&apikey=${apikey}&hash=${md5}&limit=100`;
+    const url = `https://gateway.marvel.com/v1/public/events?nameStartsWith=${pesquisa}&ts=${timestamp}&apikey=${apikey}&hash=${md5}&limit=100`;
 
     //Utilizando fetch para url e guardando em uma variavel
     const getApi = await fetch(url);
