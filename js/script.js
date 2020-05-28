@@ -1,4 +1,5 @@
 //Função que insere card no html 
+"use strict"
 const criarCard = (objetoArray) => {
    const card = `<div class="card">
         <input type="checkbox">
