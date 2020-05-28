@@ -10,41 +10,42 @@
     
     </head>
     <body>
-        <!-- VIDEO INTRODUÇÃO -->
-        <!-- <video controls src="video/IntroMarvel.mp4" > -->
-            <param name="allowFullScreen" value="true"></param>
-        </video>
         <div id="container" class="center heightAuto">
             <div id="content" class="center heightAuto">
-                <!-- LOGO E CRIADOR  -->
+                <!--======= INFORMAÇÕES ADICIONAIS ===-->
                 <div id="principal" class="center">
                     <div id="informacao">
+                         <!--======= CRIADOR ======-->
                         <div id="criador" class="center">
                             <figure id="criadorImagem">
                                 <img src="imagens/stanLee.jpg" alt="Stan Lee" title="Stan Lee">
                             </figure>
-                            <!-- <span>STAN LEE</span> -->
                         </div>
-                        <div id="botaoSite" class="center">
-                            <a href="https://developer.marvel.com/"> 
-                                <span>SITE OFICIAL</span>
-                             </a>
+                          <!--====== VIDEO  ========-->
+                        <div id="video" class="center">
+                            <video loop autoplay muted><source src="video/IntroMarvel.mp4" type="video/mp4"></video>
                         </div>
                     </div>
+                    <!--======= LOGO MARVEL ======-->
                     <figure id="logo" class="center">
                         <img src="imagens/logo.png">
-                    </figure>
+                    </figure> 
                 </div>
-                <!-- ÁREA DE PESQUISA -->
+                <!--======= ÁREA DE PESQUISA =======-->
                 <div id="caixaPesquisa" class="center">
-                    <form class="center">
+                    <div id="formulario" class="center">
                         <input id="pesquisa" type="text" placeholder="Digite o personagem aqui">
                         <input id="botao" type="button" value="PESQUISAR"></input>
-                    </form>
+                    </div>
+                    <!-- ======= MANOPLA ====== -->
+                    <div id="manopla" class="center">
+                        <figure id="manoplaImagem" class="center">
+                            <img src="imagens/manopla.png">
+                        </figure>
+                    </div>
                 </div>
-                <!--ÁREA CARD -->
+                <!--====== ÁREA CARDS =======-->
                 <div id="listaCard" class="heightAuto">
-
                 </div>
             </div>
         </div>
